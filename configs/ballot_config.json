@@ -1,0 +1,10 @@
+{
+    "election": "Republic of India, General Parliamentary Election 2022",
+    "items": {
+        "Prime Minister's party": {
+            "description": "Choose the Party Of choice",
+            "choices": ["Congress", "Trinamool Congress", "Bharitiya Janta Party", "Communist Party of India"],
+            "max_choices": 1
+        }
+    }
+}
