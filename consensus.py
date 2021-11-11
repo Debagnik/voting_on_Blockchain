@@ -3,21 +3,6 @@ from constants import MINIMUM_AGREEMENT_PCT
 
 
 class ConsensusParticipant:
-    """
-    Mixin-style class that is used with Nodes to utilize our consensus algorithm, which is inspired by
-    parts of Practical Byzantine Fault Tolerance (PBFT) and the Ripple Protocol Consensus Algorithm (RPCA). 
-    Our algorithm can be summarized as the following:
-
-    For all nodes in network:
-        broadcast hash of previous block
-        exclude nodes with different hash
-  
-        broadcast candidate set of transactions
-        validate global candidate set of transactions
-  
-        broadcast transaction approvals
-        aggregate approved transactions into new block
-    """
 
     def __init__(self):
         self.transaction_tally = dict()  # holds tally for each transaction during consensus round

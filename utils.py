@@ -20,11 +20,7 @@ def get_key_pair(key_size=512):
 
 
 def sign(message, private_key):
-    """Signs a message with an RSA private key.
-    Args:
-        message             string or bytes to sign
-        private_key         RSA private key
-    """
+    
     if type(message) == str:
         message = message.encode()
 
@@ -40,12 +36,7 @@ def sign(message, private_key):
 
 
 def verify_signature(message, signature, public_key):
-    """Returns whether or not signature/public key matches expected message hash
-    Args:
-        message         original message
-        signature       signed message
-        public_key      RSA public key used to verify signature
-    """
+    
     if type(message) == str:
         message = message.encode()
     try:
@@ -71,20 +62,12 @@ def get_str_hash(s):
 
 
 def get_formatted_time_str(date_obj):
-    """Returns a string representation of a date object as Y-M-D H:M
-    Args:
-        date_obj        datetime object
-    """
+    
     return date_obj.strftime("%Y-%m-%d %H:%M")
 
 
 def get_input_of_type(message, expected_type, allowed_inputs=None):
-    """Generic function to receive user input of an expected type and restrict to a subset of inputs.
-    Args:
-        message             message to display to prompt user for input
-        expected_type       type of input expected
-        allowed_inputs      iterable of allowed input values
-    """
+    
     while True:
         try:
             user_input = expected_type(input(message))

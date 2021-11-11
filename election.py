@@ -361,12 +361,6 @@ class Simulation(VotingProgram):
         num_double_voting_voters=0, 
         additional_selections=None,   
         **kwargs):
-        """
-        num_voters                number of regular voters to simulate
-        num_unregistered_voters   number of unregistered voters to be introduced
-        num_double_voting_voters  number of regular voters who will double vote
-        additional_selections     pre-configured selections for FlexibleBallot
-        """
         
         self.num_voters = num_voters
         self.num_unregistered_voters = max(0, num_unregistered_voters)  # separate from main voter roll

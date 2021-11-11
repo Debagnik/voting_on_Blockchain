@@ -66,17 +66,7 @@ class Ballot:
         }
 
     def fill_out(self, selections=None, **kwargs):
-        """
-        selections  pre-determined selections (used by simulation/adversaries)
-                      ex: {'President': [0], 'Vice President': [1]}
 
-        Returns whether or not ballot was filled out. This determines whether or not
-        a transaction will be created. 
-
-        Future enhancement: Implement retry mechanism, allowing ballots to be invalidated.
-        To do this, we would have to support invalidating claim tickets and allowing the
-        voter to claim another ticket in its stead.
-        """
 
         if selections:
             for position in selections:
