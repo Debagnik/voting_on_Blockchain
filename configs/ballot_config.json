@@ -2,8 +2,13 @@
     "election": "Republic of India, 18th Lok Sabha Election 2024",
     "items": {
         "Prime Minister's party": {
-            "description": "Choose the Party Of choice",
-            "choices": ["Congress", "Trinamool Congress", "Bharitiya Janta Party", "Communist Party of India"],
+            "description": "Democratic Leader of India",
+            "choices": ["Party 1", "Party 2"],
+            "max_choices": 1
+        },
+        "Some other Choice": {
+            "description": "Someone who works right below the prime minister",
+            "choices": ["Choice 1", "Choice 2"],
             "max_choices": 1
         }
     }

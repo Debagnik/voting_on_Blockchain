@@ -1,21 +1,21 @@
 [{
-        "name": "Mahua Kar",
-        "num_claim_tickets": 1
-    },
-    {
         "name": "Rak Kingabed",
         "num_claim_tickets": 1
     },
     {
-        "name": "Debagnik Kar",
+        "name": "John Doe",
         "num_claim_tickets": 1
     },
     {
-        "name": "Diyotima Kar",
+        "name": "Alice Walker",
         "num_claim_tickets": 1
     },
     {
-        "name": "Goutam Kar",
+        "name": "Jesus Christ",
+        "num_claim_tickets": 1
+    },
+    {
+        "name": "RK Narayan",
         "num_claim_tickets": 1
     }
 ]
