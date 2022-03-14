@@ -9,7 +9,7 @@ class FlexibleBallot(Ballot):
     def fill_out(self, selections=None, additional_selections=None):
         """
         additional_selections    additional positions w/ single candidate to add to ballot. should be
-                                   in form [{'position': 'prez', 'candidate': 'jai punjwani'}]
+                                   in form [{'position': 'prez', 'candidate': 'Rak Kingabed'}]
         """
         filled_out = super().fill_out(selections=selections)
         if not filled_out:

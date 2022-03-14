@@ -21,7 +21,7 @@ def main():
         3: {'description': 'Valid voter attempting to cast extra vote', 'adversarial': False, 'kwargs': {'num_double_voting_voters': 5, 'ballot_config_path': 'configs/simulation/simulation_3_ballot_config.json'}},  # voter will vote twice so effectively 10 voters
         # note about 4: this isn't necessarily an adversarial scenario, but we choose to treat it as one here.
         4: {'description': 'Valid voters attempting to cast invalid vote', 'adversarial': True, 'kwargs': {'voting_node_adversary_class': InvalidBallotVotingComputer, 
-                                                                                                           'additional_selections': [{'position': 'FakePosition', 'candidate': 'Jai Punjwani'}],
+                                                                                                           'additional_selections': [{'position': 'FakePosition', 'candidate': 'Rak Kingabed'}],
                                                                                                            'ballot_config_path': 'configs/simulation/simulation_4_ballot_config.json'}},
         5: {'description': 'Node broadcasting invalid transaction', 'adversarial': True, 'kwargs': {'voter_node_adversary_class': UnrecognizedVoterAuthenticationBooth, 'ballot_config_path': 'configs/simulation/simulation_5_ballot_config.json'}},
         6: {'description': 'Adversarial node creating invalid claim tickets', 'adversarial': True, 'kwargs': {'voter_node_adversary_class': AuthBypassVoterAuthenticationBooth, 'ballot_config_path': 'configs/simulation/simulation_6_ballot_config.json'}},
