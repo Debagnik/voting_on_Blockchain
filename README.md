@@ -16,7 +16,7 @@ The system allows users to configure their own voter roll and ballot with multip
 Docker OR Python 3.5+ & pip
 
 ### How to Run
-You can use `docker` to run this application. See [docker instructions]() for more.
+You can use `docker` to run this application. See [docker instructions](https://github.com/Debagnik/voting_on_Blockchain/blob/master/README.Docker.md) for more.
 
 Alternatively, you can set up the environment using `pip` to install the dependencies from `requirements.txt` (ideally in a virtual environment).
 Then run `python main.py`. To customize the software for your own voter roll & ballot, modify `configs/voter_roll.json` and `configs/ballot_config.json`, respectively.
