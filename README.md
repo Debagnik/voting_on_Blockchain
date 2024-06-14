@@ -3,7 +3,7 @@
 ## [Find github repo here](https://github.com/Debagnik/voting_on_Blockchain)
 
 ### Description
-This repository is a part of a conference paper cited below.
+This repository is a part of a conference paper cited below.    
 D. Kar and S. Prasad Kar, “An I-voting system using dual-blockchain architecture,” Interdisciplinary Research in Technology and Management, pp. 213–222, Apr. 2024. doi:[10.1201/9781003430469-25](https://doi.org/10.1201/9781003430469-25) 
 
 This is a blockchain-inspired "Internet" voting system that demonstrates how a blockchain architecture can be used to make the voting process more reliable. It keeps track of voters who have been authenticated as well as ballots that are cast in two separate, unlinked blockchains. This preserves voter anonymity and achieves greater election integrity using an "immutable" audit trail. 
