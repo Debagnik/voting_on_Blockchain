@@ -3,18 +3,19 @@
 ## [Find github repo here](https://github.com/Debagnik/voting_on_Blockchain)
 
 ### Description
-This repository is a part of a conference paper that got published in International Conference on Interdisciplinary Research in Technology & Management (IRTM) 2023. the conference proceedings are available at [IRTM 2023 website](https://irtm.smartsociety.org/wp-content/uploads/2023/04/IRTM_2023.pdf) the mentioned paper can be found on page 42-48.
+This repository is a part of a conference paper cited below.    
+D. Kar and S. Prasad Kar, “_An I-voting system using dual-blockchain architecture_,” Interdisciplinary Research in Technology and Management, **pp. 213–222**, Apr. 2024. doi:[10.1201/9781003430469-25](https://doi.org/10.1201/9781003430469-25) 
 
-This is a blockchain-inspired "Internet" voting system that demonstrates how a blockchain architecture can be used to make the voting process more reliable. It keeps track of voters that have been authenticated as well as ballots that are cast in two separate, unlinked blockchains. This preserves voter anonymity and achieves greater election integrity using an "immutable" audit trail. 
+This is a blockchain-inspired "Internet" voting system that demonstrates how a blockchain architecture can be used to make the voting process more reliable. It keeps track of voters who have been authenticated as well as ballots that are cast in two separate, unlinked blockchains. This preserves voter anonymity and achieves greater election integrity using an "immutable" audit trail. 
 
-The system allows users to configure their own voter roll and ballot with multiple ballot items and multiple selections per item. It aims to simulate the decentralized nature of blockchain with a consensus process that must take place before votes are recorded on the blockchain using BFTP.
+The system allows users to configure their voter roll and ballot with multiple ballot items and multiple selections per item. It aims to simulate the decentralized nature of blockchain with a consensus process that must take place before votes are recorded on the blockchain using BFTP.
 
 ### Features
 - full voting system (registration, authentication, Internet ballot interface)
 - interactive (normal) mode vs. simulated election
 - demonstrates consensus process among nodes in the blockchain
-- adversarial mode (mocks adversary nodes and demonstrates power of consensus)
-- logging (machine logs emulate realistic system messages that is part of the system's auditing)
+- adversarial mode (mocks adversary nodes and demonstrates the power of consensus)
+- logging (machine logs emulate realistic system messages that are part of the system's auditing)
 
 ### Requirements
 Docker OR Python 3.5+ & pip
