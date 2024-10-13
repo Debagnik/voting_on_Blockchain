@@ -1,0 +1,48 @@
+<html>
+
+    <head>
+        <title>
+            I-voting system using dual blockchain architecture
+        </title>
+    </head>
+    
+    <body>
+        <h1 id="a-blockchain-based-electronic-voting-system">A Blockchain-based Electronic Voting System</h1>
+        <h2 id="find-github-repo-here"><a href="https://github.com/Debagnik/voting_on_Blockchain">Find github repo here</a>
+        </h2>
+        <h3 id="description">Description</h3>
+        <p>This repository is a part of a conference paper cited below.<br>D. Kar and S. Prasad Kar, “<em>An I-voting system
+                using dual-blockchain architecture</em>,” Interdisciplinary Research in Technology and Management,
+            <strong>pp. 213–222</strong>, Apr. 2024. doi:<a
+                href="https://doi.org/10.1201/9781003430469-25">10.1201/9781003430469-25</a> </p>
+        <p>This is a blockchain-inspired &quot;Internet&quot; voting system that demonstrates how a blockchain architecture
+            can be used to make the voting process more reliable. It keeps track of voters who have been authenticated as
+            well as ballots that are cast in two separate, unlinked blockchains. This preserves voter anonymity and achieves
+            greater election integrity using an &quot;immutable&quot; audit trail. </p>
+        <p>The system allows users to configure their voter roll and ballot with multiple ballot items and multiple
+            selections per item. It aims to simulate the decentralized nature of blockchain with a consensus process that
+            must take place before votes are recorded on the blockchain using BFTP.</p>
+        <h3 id="features">Features</h3>
+        <ul>
+            <li>full voting system (registration, authentication, Internet ballot interface)</li>
+            <li>interactive (normal) mode vs. simulated election</li>
+            <li>demonstrates consensus process among nodes in the blockchain</li>
+            <li>adversarial mode (mocks adversary nodes and demonstrates the power of consensus)</li>
+            <li>logging (machine logs emulate realistic system messages that are part of the system&#39;s auditing)</li>
+        </ul>
+        <h3 id="requirements">Requirements</h3>
+        <p>Docker OR Python 3.5+ &amp; pip</p>
+        <h3 id="how-to-run">How to Run</h3>
+        <p>You can use <code>docker</code> to run this application. See <a
+                href="https://github.com/Debagnik/voting_on_Blockchain/blob/master/README.Docker.md">docker instructions</a>
+            for more.</p>
+        <p>Alternatively, you can set up the environment using <code>pip</code> to install the dependencies from
+            <code>requirements.txt</code> (ideally in a virtual environment).
+            Then run <code>python main.py</code>. To customize the software for your own voter roll &amp; ballot, modify
+            <code>configs/voter_roll.json</code> and <code>configs/ballot_config.json</code>, respectively.</p>
+        <p>Written by Debagnik Kar for Major Project submission to partially complete B.Tech curriculam in Electronics and
+            telecommunication engineering from School of Electronics Engineering, Kalinga Institute of Industrial
+            Technology, <a href="https://electronics.kiit.ac.in/">KIIT Deemed to be University</a>, Bhubaneswar, Odisha.</p>
+    </body>
+
+</html>
